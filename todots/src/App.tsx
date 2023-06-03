@@ -1,5 +1,6 @@
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import TaskForm from "./Components/TaskForm/TaskForm";
 import S from './app.module.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <main className={S.main}>
-      <p>CONTEUDO EM DESENVOLVIMENTO</p>
+      <TaskForm btnText="criar tarefa"/>
       </main>
       <Footer/> 
     </div>

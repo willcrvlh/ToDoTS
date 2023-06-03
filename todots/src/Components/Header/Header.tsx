@@ -1,9 +1,8 @@
-import * as React from 'react';
-
+import S from './Header.module.css'
 
 export default function Header () {
   return (
-    <header>
+    <header className={S.header}>
         To Do React + Typescript
     </header>
   );

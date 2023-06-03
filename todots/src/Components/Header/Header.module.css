@@ -1,0 +1,10 @@
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #282c64;
+    color: #61dafb;
+    padding: 1em;
+}

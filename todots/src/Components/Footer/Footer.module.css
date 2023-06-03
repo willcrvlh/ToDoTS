@@ -1,0 +1,13 @@
+.footer{
+    background-color: #282c64;
+    color:#61dacf ;
+    font-size: 2rem;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.img{
+    height: 15vh;
+}

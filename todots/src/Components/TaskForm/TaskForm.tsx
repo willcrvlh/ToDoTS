@@ -1,4 +1,6 @@
+import React,{useState, useEffect, ChangeEvent, FormEvent} from 'react';
 import S from './TaskForm.module.css'
+import { ITask } from '../../Interfaces/Task';
 export interface ITaskFormProps {
     btnText: string;
 }
